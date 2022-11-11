@@ -16,7 +16,6 @@ COPY ./src ./src
 RUN rm ./target/release/deps/modlifesredirector*
 RUN cargo build --release
 
-
 FROM debian:buster-slim
 
 COPY --from=builder /modlifesredirector/target/release/modlifesredirector .
