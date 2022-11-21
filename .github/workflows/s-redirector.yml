@@ -1,4 +1,4 @@
-name: ✨ Deploy to staging redirector
+name: ✨ Deploy to staging redirector.
 
 on:
   push:
